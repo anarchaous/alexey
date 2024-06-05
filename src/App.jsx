@@ -3,7 +3,7 @@ import './App.css'
 import Main from './components/Main'
 import Second from './components/Second'
 import Footer from './components/Footer'
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
 
