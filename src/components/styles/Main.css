@@ -1,0 +1,183 @@
+.main {
+    min-width: 100%;
+    height: 100vh;
+    background: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,1);
+    mix-blend-mode: multiply;
+    overflow: hidden;
+    border-bottom: 2px solid #00FFB2;
+    
+}
+
+.header {
+    max-width: 90%;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header .navbar a {
+    font-size: 32px;
+    text-decoration: none;
+    background: linear-gradient(to right, #00FF57, #00FFB2);
+    background-clip: text;
+    color: transparent;
+    margin-left: 60px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.header .logo h2 {
+    font-size: 32px;
+    font-weight: normal;
+    background: linear-gradient(to right, #00FF57, #00FFB2);
+    background-clip: text;
+    color: transparent;
+    margin-left: 20px;
+}
+
+.container {
+    max-width: 100%;
+    height: 800px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 90px;
+}
+
+.offer {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.offer h1 {
+    font-size: 48px;
+    background: linear-gradient(to right, #00FF57, #00FFB2);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.offer p {
+    font-size: 28px;
+    background: linear-gradient(to right, #00FF57, #00FFB2);
+    background-clip: text;
+    color: transparent;
+    width: 85%;
+}
+
+.offer .buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons a {
+    /* width: 290px;
+    height: 65px; */
+   width: 290px;
+   height: 65px;
+   line-height: 65px;
+    text-align: center;
+    border: 3px solid #00FFB2;
+    border-radius: 9px;
+    background: linear-gradient(to right, #00FF57, #00FFB2);
+    background-clip: text;
+    color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    box-shadow: 0 10px 10px 0px rgba(0,0,0,0.4);
+    transition: .5s;
+}
+
+.buttons a:hover {
+    background: linear-gradient(to right, #00FF57, #00FFB2);
+    color: black;
+}
+
+.buttons img {
+    width: 45px;
+    height: 45px;
+    margin-left: 20px;
+}
+
+.imgbox {
+    position: relative;
+    bottom: 0;
+}
+
+.imgbox img {
+    width: 600px;
+    height: 800px;
+    margin-right: 70px;
+    
+}
+
+@media (max-width: 600px) {
+
+    .main {
+        height: 90vh;
+    }
+
+    
+    .header .navbar {
+        display: none;
+    }
+
+    .offer h1 {
+        font-size: 30px;
+        padding: 2px;
+        text-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .container {
+        padding: 0;
+        top: 0;
+        padding-left: 20px;
+    }
+
+    .offer p {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .buttons a {
+         width: 178px;
+         height: 40px;
+         font-size: 20px;
+         line-height: 40px;
+         border-radius: 5px;
+         border: 1px solid #00FFB2;
+         font-weight: normal;
+    }
+    
+    .leshik {
+        width: 200px;
+        height: 260px;
+    }
+}

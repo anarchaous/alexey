@@ -1,0 +1,100 @@
+.footer {
+    width: 100%;
+    height: 466px;
+    background: white;
+    display: flex;
+    overflow: hidden;
+}
+
+.footer .first-div {
+    min-width: 426px;
+    height: 100%;
+}
+
+.footer .main-div {
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-div .footer-logo {
+    display: flex;
+    margin-top: 60px;
+}
+
+.main-div .footer-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.main-div .footer-logo h1 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+.main-div p {
+    font-size: 22px;
+    color: #585858;
+    text-align: center;
+    width: 50%;
+    margin-top: 60px;
+}
+
+.contacts {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts h2 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.contacts-logo {
+    margin-top: 15px;
+}
+
+.contacts-logo img {
+    width: 80px;
+    height: 80px;
+    margin-right: 12px;
+}
+
+.footer .third-div {
+    min-width: 426px;
+    height: 100%;
+}
+
+@media (max-width: 600px) {
+    .first-div {
+        display: none;
+    }
+
+    .third-div {
+        display: none;
+    }
+
+    .main-div .footer-logo {
+        margin-top: 60px;
+    }
+
+    .main-div p {
+        width: 90%;
+        margin-top: 30px;
+        font-size: 18px;
+    }
+
+    .contacts {
+        margin-top: 30px;
+    }
+
+    .contacts-logo img {
+        width: 60px;
+        height: 60px;
+    }
+}
